@@ -4,9 +4,9 @@ from reportlab.platypus import Paragraph, Spacer,ListFlowable, ListItem, Flowabl
 
 def get_profile_text(styles):
     paragraphs = [
-    "Doświadczony analityk danych z ponad 20-letnim doświadczeniem w sektorze finansowym (księgowość, audyt wewnętrzny, controlling) oraz 3-letnim stażem we wdrażaniu rozwiązań analitycznych w IT. Specjalizuję się w analizie danych, posługując się zaawansowanym SQL (Oracle, BigQuery, Spark) oraz narzędziami Business Intelligence (Power BI).", 
-    "Moje kluczowe kompetencje obejmują: zbieranie i analizę wymagań biznesowych, projektowanie i tworzenie efektywnych raportów, zarządzanie projektami oraz zespołami (do 9 osób).",
-    "Bogate doświadczenie w sektorze finansowym umożliwia mi szybkie zrozumienie potrzeb biznesowych i efektywną komunikację z interesariuszami. Obecnie rozwijam swoje umiejętności w języku Golang i zastosowaniach Pythona w Machine Learning. Posiadam certyfikat ACCA, który potwierdza moje kompetencje w obszarze finansów. Jestem osobą zaangażowaną, skuteczną i skupioną na osiąganiu celów."
+    "Experienced Data Analyst with over 20 years of expertise in the financial sector (accounting, internal audit, controlling) and 3 years of experience implementing analytical solutions in IT. I specialize in data analysis, leveraging advanced SQL (Oracle, BigQuery, Spark) and Business Intelligence tools like Power BI.", 
+    "My key competencies include: gathering and analyzing business requirements, designing and creating efficient reports, Managing projects and leading teams (up to 9 people).",
+    "Extensive experience in the financial sector enables me to quickly understand business needs and communicate effectively with stakeholders. Currently, I am expanding my skills in Golang and Python applications for Machine Learning. I hold an ACCA certificate, which confirms my expertise in finance. I am a dedicated, results-oriented professional with strong analytical skills and the ability to work both independently and within a team."
     ]
     # Tworzenie listy akapitów z minimalnym odstępem
     content = []
@@ -47,9 +47,9 @@ def get_experience1_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Analityk danych", 
+        left_text="Data Analyst", 
         left_style=styles['PolishBodyTextBold'],
-        right_text="4/2024 – obecnie",
+        right_text="4/2024 – present",
         right_style=styles['PolishBodyText']
     )
 
@@ -59,8 +59,8 @@ def get_experience1_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Tworzenie i optymalizacja raportów finansowych z wykorzystaniem SQL (Oracle).",
-        "Przegląd i aktualizacja procedur."
+        "Developing and optimizing financial reports using SQL (Oracle).",
+        "Reviewing and updating  procedures."
     ]
 
     # Tworzenie listy punktowanej
@@ -84,7 +84,7 @@ def get_experience2_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Konsultant", 
+        left_text="Data Consultant", 
         left_style=styles['PolishBodyTextBold'],
         right_text="3/2022 – 3/2024",
         right_style=styles['PolishBodyText']
@@ -96,10 +96,10 @@ def get_experience2_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Budowa i wizualizacja raportów finansowych w Power BI.",
-        "Przetwarzanie dużych zbiorów danych za pomocą Spark SQL i BigQuery.",
-        "Integracja danych w środowiskach Google Cloud Platform.",
-        "Automatyzacja procesów ETL przy użyciu Apache Airflow."
+        "Building and visualizing financial reports in Power BI.",
+        "Processing large datasets using Spark SQL and BigQuery.",
+        "Data integration in Google Cloud Platform and Azure Databricks.",
+        "Automating ETL processes with Apache Airflow."
     ]
 
     # Tworzenie listy punktowanej
@@ -123,7 +123,7 @@ def get_experience3_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Kontroler galerii handlowych i inwestycji", 
+        left_text="Controller of Shopping Malls and Investments", 
         left_style=styles['PolishBodyTextBold'],
         right_text="7/2017 – 5/2021",
         right_style=styles['PolishBodyText']
@@ -135,9 +135,9 @@ def get_experience3_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Budżetowanie przychodów i kosztów galerii handlowych oraz nadzór nad wydatkami inwestycyjnymi.",
-        "Analiza rentowności projektów inwestycyjnych (ROI).",
-        "Zarządzanie pracą zespołu (1 osoba)."
+        "Budgeting revenues and costs for shopping malls and overseeing investment expenses.",
+        "Conducting ROI analyses for investment projects.",
+        "Managing a team (1 person)."
     ]
 
     # Tworzenie listy punktowanej
@@ -161,7 +161,7 @@ def get_experience4_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Menedżer kontroli wewnętrznej", 
+        left_text="Internal Control Manager", 
         left_style=styles['PolishBodyTextBold'],
         right_text="1/2015 – 6/2017",
         right_style=styles['PolishBodyText']
@@ -173,8 +173,8 @@ def get_experience4_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Audyt procesów biznesowych i identyfikacja obszarów do poprawy.",
-        "Opracowywanie i wdrażanie nowych procedur oraz standardów kontroli."
+        "Auditing business processes and identifying areas for improvement.",
+        "Developing and implementing new procedures and control standards."
     ]
 
     # Tworzenie listy punktowanej
@@ -198,7 +198,7 @@ def get_experience5_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Menedżer ds. środków trwałych", 
+        left_text="Fixed Assets Manager", 
         left_style=styles['PolishBodyTextBold'],
         right_text="4/2012 – 12/2014",
         right_style=styles['PolishBodyText']
@@ -210,8 +210,8 @@ def get_experience5_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Zarządzanie 9-osobowym zespołem księgowym.",
-        "Organizacja i wdrożenie procesu inwentaryzacji środków trwałych."
+        "Managing a 9-person accounting team responsible for fixed asset records.",
+        "Organizing and implementing the fixed asset inventory process."
     ]
 
     # Tworzenie listy punktowanej
@@ -235,7 +235,7 @@ def get_experience6_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Kontroler procesów finansowych", 
+        left_text="Financial Processes Controller", 
         left_style=styles['PolishBodyTextBold'],
         right_text="1/2011 – 3/2012",
         right_style=styles['PolishBodyText']
@@ -247,8 +247,8 @@ def get_experience6_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Opracowanie polityki rachunkowości.",
-        "Przygotowanie dokumentacji procesów biznesowych i wdrażanie procedur księgowych."
+        "Developing an accounting policy.",
+        "Preparing business process documentation and implementing accounting procedures."
     ]
 
     # Tworzenie listy punktowanej
@@ -272,7 +272,7 @@ def get_experience7_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Menedżer w dziale podatków", 
+        left_text="Tax Department Manager", 
         left_style=styles['PolishBodyTextBold'],
         right_text="1/2009 – 12/2010",
         right_style=styles['PolishBodyText']
@@ -284,8 +284,9 @@ def get_experience7_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Współpraca z doradcą podatkowym nad procesem liczenia podatku CIT.",
-        "Szacowanie podatku odroczonego."
+        "Collaborating with a tax advisor to develop a new CIT calculation process.",
+        "Estimating deferred tax.",
+        "Managing a team (1 person)."
     ]
 
     # Tworzenie listy punktowanej
@@ -309,7 +310,7 @@ def get_experience8_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Menedżer konsolidacji", 
+        left_text="Consolidation Manager", 
         left_style=styles['PolishBodyTextBold'],
         right_text="1/2001 – 12/2008",
         right_style=styles['PolishBodyText']
@@ -321,9 +322,9 @@ def get_experience8_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Przygotowywanie sprawozdawczości finansowej zgodnej ze standardami MSSF.",
-        "Testowanie utraty wartości aktywów i analiza umów najmu zgodnie z MSR 16.",
-        "Zarządzanie 2-osobowym zespołem."
+        "Preparing financial reporting in compliance with IFRS standards",
+        "Conducting asset impairment testing and lease agreement analysis under IAS 16.",
+        "Managing a 2-person team."
     ]
 
     # Tworzenie listy punktowanej
@@ -347,7 +348,7 @@ def get_experience9_text(styles):
 
     # Użycie InlineText dla dwóch fragmentów tekstu
     inline_text = InlineText(
-        left_text="Kontroler finansowy", 
+        left_text="Financial Controller", 
         left_style=styles['PolishBodyTextBold'],
         right_text="12/1999 – 12/2000",
         right_style=styles['PolishBodyText']
@@ -359,7 +360,7 @@ def get_experience9_text(styles):
 
     # Punkty do listy
     bullet_points = [
-        "Budżetowanie kosztów, analiza NPV oraz przygotowywanie raportów finansowych."
+        "Budgeting costs, analyzing NPV, and preparing financial reports."
     ]
 
     # Tworzenie listy punktowanej

@@ -5,18 +5,18 @@ from reportlab.platypus import Paragraph
 def get_nazwisko_text(styles):
     nazwa = """
     Michał Kotarski<br />
-    Analityk Danych
+    Data Analyst
     """
     return Paragraph(nazwa, styles['PolishTitleShort'])
 
 def get_skills_data():
     # Umiejętności z oceną w postaci gwiazdek
      return  [
-        ("lojalność", 5),    # 5/5 gwiazdek
-        ("analiza", 5),     # 4/5 gwiazdek
-        ("adaptacja", 4),    # 4/5 gwiazdek
-        ("komunikacja", 4),  # 4/5 gwiazdek
-        ("budżetowanie", 4)   # 5/5 gwiazdek
+        ("loyalty", 5),    # 5/5 gwiazdek
+        ("analyses", 5),     # 4/5 gwiazdek
+        ("adaptability", 4),    # 4/5 gwiazdek
+        ("communication", 4),  # 4/5 gwiazdek
+        ("budgeting", 4)   # 5/5 gwiazdek
     ]
 
 def get_coding_data():
@@ -32,13 +32,13 @@ def get_coding_data():
 def get_languages_data():
     # Umiejętności z oceną w postaci gwiazdek
      return  [
-        ("angielski", 4),    
-        ("niemiecki", 2),   
-        ("francuski", 1),  
+        ("English", 4),    
+        ("German", 2),   
+        ("French", 1),  
     ]
 
 def get_kontakt_text(styles):
-    kontakt = """KONTAKT"""
+    kontakt = """CONTACT"""
     telefon = """+48 604 669 681"""
     mail = """mickotarski@gmail.com"""
     hyperlink_linkedIN = Paragraph(
@@ -53,19 +53,19 @@ def get_kontakt_text(styles):
     return content
 
 def get_edukacja_text(styles):
-    edukacja = """EDUKACJA"""
+    edukacja = """EDUCATION"""
     data1 = """2004 – 2007"""
     edu1 = """Association of Chartered 
             Certified Accountants ACCA
-            wszystkie egzaminy zdane."""
+            all exams passed."""
     data2 = """2003"""
-    edu2 = """Politechnika Warszawska – 
-            roczne studia podyplomowe
-            zastosowania IT w biznesie"""
+    edu2 = """Warsaw University of Technology – 
+            one-year postgraduate studies
+            IT applications in business"""
     data3 = """1994 – 2000"""
-    edu3 = """Szkoła Główna Handlowa – 
-            mgr finanse i bankowość,
-            specjalizacja księgowość"""
+    edu3 = """Warsaw School of Economics – 
+            Master of Science in Finance and Banking,
+            specialization in accounting"""
     
     content = []
     content.append(Paragraph(f'<u>{edukacja}</u>', styles['PolishSmallTitle']))
@@ -79,9 +79,9 @@ def get_edukacja_text(styles):
 
 def get_hobby_text(styles):
     hobby = """HOBBY"""
-    hobby1 = """Jazda na rowerze"""
-    hobby2 = """Jazda konna"""
-    hobby3 = """Literatura faktu"""
+    hobby1 = """cycling"""
+    hobby2 = """horse riding"""
+    hobby3 = """non-fiction books"""
 
     content = []
     content.append(Paragraph(f'<u>{hobby}</u>', styles['PolishSmallTitle']))
