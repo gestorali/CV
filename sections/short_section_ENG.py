@@ -13,7 +13,7 @@ def get_skills_data():
     # Umiejętności z oceną w postaci gwiazdek
      return  [
         ("loyalty", 5),    # 5/5 gwiazdek
-        ("analyses", 5),     # 4/5 gwiazdek
+        ("analysis", 5),     # 4/5 gwiazdek
         ("adaptability", 4),    # 4/5 gwiazdek
         ("communication", 4),  # 4/5 gwiazdek
         ("budgeting", 4)   # 5/5 gwiazdek

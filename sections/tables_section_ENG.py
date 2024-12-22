@@ -48,8 +48,8 @@ def get_short_table(col1_width, styles):
     short_table.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (0, -1), colors.Color(0.85, 0.85, 0.85)),
         #('BACKGROUND', (0, 1), (0, 1), colors.whitesmoke),
-        ('BOX', (0, 0), (-1, -1), 1, colors.black),
-        ('GRID', (0, 0), (-1, -1), 0.5, colors.black),
+        #('BOX', (0, 0), (-1, -1), 1, colors.black),
+        #('GRID', (0, 0), (-1, -1), 0.5, colors.black),
         ('ALIGN', (0, 0), (0, 0), 'CENTER'),
         ('VALIGN', (0, 0), (0, 0), 'TOP')
     ]))
@@ -75,10 +75,10 @@ def get_long_table(col2_width, styles):
         ('BACKGROUND', (0, 0), (-1, 0), colors.lightblue),         # Tło dla PROFIL   
         ('BACKGROUND', (0, 1), (-1, 1), colors.whitesmoke),        # Tło dla profilu
         ('BACKGROUND', (0, 2), (-1, 2), colors.lightblue),         # Tło dla DOŚWIDCZENIE
-        ('BOX', (0, 0), (-1, -1), 1, colors.black),
-        ('GRID', (0, 0), (-1, -1), 0.5, colors.black),
+        #('BOX', (0, 0), (-1, -1), 1, colors.black),
+        #('GRID', (0, 0), (-1, -1), 0.5, colors.black),
         ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-        ('LINEBELOW', (0, 0), (0, 0), 0, colors.transparent)
+        #('LINEBELOW', (0, 0), (0, 0), 0, colors.transparent)
     ]))
     return long_table
 

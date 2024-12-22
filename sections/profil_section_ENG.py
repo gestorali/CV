@@ -5,7 +5,7 @@ from reportlab.platypus import Paragraph, Spacer,ListFlowable, ListItem, Flowabl
 def get_profile_text(styles):
     paragraphs = [
     "Experienced Data Analyst with over 20 years of expertise in the financial sector (accounting, internal audit, controlling) and 3 years of experience implementing analytical solutions in IT. I specialize in data analysis, leveraging advanced SQL (Oracle, BigQuery, Spark) and Business Intelligence tools like Power BI.", 
-    "My key competencies include: gathering and analyzing business requirements, designing and creating efficient reports, Managing projects and leading teams (up to 9 people).",
+    "My key competencies include: gathering and analyzing business requirements, designing and creating efficient reports, managing projects and leading teams (up to 9 people).",
     "Extensive experience in the financial sector enables me to quickly understand business needs and communicate effectively with stakeholders. Currently, I am expanding my skills in Golang and Python applications for Machine Learning. I hold an ACCA certificate, which confirms my expertise in finance. I am a dedicated, results-oriented professional with strong analytical skills and the ability to work both independently and within a team."
     ]
     # Tworzenie listy akapitów z minimalnym odstępem
